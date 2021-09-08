@@ -2,5 +2,4 @@
 
 host="$1"
 
-echo "Connecting to" $host
 adb connect $host
