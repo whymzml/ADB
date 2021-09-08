@@ -3,5 +3,4 @@
 host="$1"
 code="$2"
 
-echo "Connecting to" $host "using" $code
 echo $code | adb pair $host
